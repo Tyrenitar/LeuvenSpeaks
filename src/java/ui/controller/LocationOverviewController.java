@@ -30,8 +30,8 @@ public class LocationOverviewController {
     @RequestMapping("/locationOverview")
     protected ModelAndView getLocations() {
         ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(1,"KHL",new Geolocation(51,51),LocationType.University));
-        locations.add(new Location(2,"KUL",new Geolocation(51,51),LocationType.University));
+        locations.add(new Location(1,"KHL",new Geolocation(51,51)));
+        locations.add(new Location(2,"KUL",new Geolocation(51,51)));
         
         return new ModelAndView("locationOverview", "locations", locations);
     }

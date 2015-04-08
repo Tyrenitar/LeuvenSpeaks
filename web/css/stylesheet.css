@@ -1,0 +1,42 @@
+/* 
+    Created on : 2-apr-2015, 8:35:46
+    Author     : Joris
+*/
+body {
+    background: blue;
+}
+/*** --- navigation --- ***/
+nav {
+    height : 40px;
+    width : 100%;
+    background : rgb(0,60,118);
+    font-size : 12pt;
+    font-family : Comics Sans MS, Arial, sans-serif;
+    font-weight : bold;
+    position : relative;
+    border-bottom: 3px solid rgb(24,164,194);
+}
+
+nav li {
+    display : inline;
+    float : left;
+}
+
+nav li a {
+    color : rgb(255,255,255);
+    display : inline-block;
+    width : 100%;
+    text-align : center;
+    text-decoration : none;
+
+    border-right : 1px solid rgb(87,105,121);
+    box-sizing : border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+nav li:last-child a {
+    border-right: 0;
+}
+
+

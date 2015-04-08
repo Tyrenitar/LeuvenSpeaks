@@ -7,11 +7,12 @@
 <section id="menu">
     <nav>
         <ul>
-            <li>About</li>
+            <li><a href="#">About</a></li>
             <li><a href="locationOverview.htm">Map</a></li>
-            <li>Share</li>
-            <li>Contact</li>
+            <li><a href="#">Share</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
+        <a href="#" id="pull">Menu</a>
     </nav>
 </section>
     
