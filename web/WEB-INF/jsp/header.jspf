@@ -1,0 +1,19 @@
+<section id="header-wrapper">
+        <header>
+            <section id="name">
+                <h1><a href="#">Leuven Speaks</a></h1>
+                <img alt="navigationbutton" src="images/menu-icon.png"/>
+            </section>
+            <section id="navigation">
+                <nav id="menu">
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Share</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+    </section>
+ 
